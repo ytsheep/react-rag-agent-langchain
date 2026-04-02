@@ -1,29 +1,64 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
 env/
 
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
 # Logs
+# =========================
 logs/
 *.log
 
-# Environment variables
-.env
-
-# Vector database / generated data
+# =========================
+# Runtime generated data
+# =========================
 chroma_db/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Optional: if you later generate temp reports locally
+tmp/
+temp/
+*.tmp
 
-# IDE
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# IDE / Editor
+# =========================
 .idea/
 .vscode/
 
-# Streamlit
-.streamlit/secrets.toml
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
