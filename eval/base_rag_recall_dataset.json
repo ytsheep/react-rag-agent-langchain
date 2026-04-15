@@ -1,0 +1,205 @@
+[
+  {
+    "id": "T01",
+    "query": "机器人找不到充电座怎么处理？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["充电座前方3米", "左右1米无遮挡", "重启回充"],
+        "min_keyword_hits": 1
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "query": "APP无法连接机器人怎么办？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["同一2.4GWiFi", "重启机器人和路由器", "添加设备"],
+        "min_keyword_hits": 1
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "query": "建图不完整、地图错乱怎么解决？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["反光物", "删除旧地图", "重新建图"],
+        "min_keyword_hits": 1
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "query": "清扫后地面还有灰尘、碎屑怎么办？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["主刷", "边刷", "尘盒", "滤网", "吸力调至最高档"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "query": "如何设置先扫后拖的清洁流程？",
+    "gold_targets": [
+      {
+        "source": "扫拖一体机器人100问.txt",
+        "keywords": ["自定义清扫", "先扫后拖", "扫地吸力", "拖地出水量"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "query": "电动拖布不旋转怎么办？",
+    "gold_targets": [
+      {
+        "source": "扫拖一体机器人100问.txt",
+        "keywords": ["毛发", "杂物缠绕", "拖布电机卡扣", "重启机器人"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "query": "机器人无法连接WiFi怎么办？",
+    "gold_targets": [
+      {
+        "source": "故障排除.txt",
+        "keywords": ["同一2.4G网络", "WiFi密码", "重启路由器", "重新输入WiFi密码"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "query": "机器人清扫路线混乱、无规律怎么办？",
+    "gold_targets": [
+      {
+        "source": "故障排除.txt",
+        "keywords": ["规划式清扫", "地图是否完整", "重新建图", "清理新障碍物"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "query": "充电触点要不要经常清洁？",
+    "gold_targets": [
+      {
+        "source": "维护保养.txt",
+        "keywords": ["每天清洁机器人充电触点", "金属触点", "避免氧化", "接触不良"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "query": "木地板适合什么样的扫拖机器人？",
+    "gold_targets": [
+      {
+        "source": "选购指南.txt",
+        "keywords": ["木地板", "拖布可抬升", "出水量可调"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "query": "扫地机老是回不到充电桩，咋办？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["充电座周围障碍物", "前方3米", "左右1米无遮挡", "重启回充"],
+        "min_keyword_hits": 1
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "query": "手机一直连不上扫地机，配网失败怎么办？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["2.4GWiFi", "重启机器人和路由器", "添加设备"],
+        "min_keyword_hits": 1
+      },
+      {
+        "source": "故障排除.txt",
+        "keywords": ["2.4G网络", "WiFi密码", "重启路由器", "重新输入WiFi密码"],
+        "min_keyword_hits": 1
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "query": "想让它先吸一遍再拖地，APP里怎么设？",
+    "gold_targets": [
+      {
+        "source": "扫拖一体机器人100问.txt",
+        "keywords": ["APP", "自定义清扫", "先扫后拖", "出水量"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "query": "拖地时水箱漏水怎么办？",
+    "gold_targets": [
+      {
+        "source": "故障排除.txt",
+        "keywords": ["水箱盖", "密封圈", "出水管", "疏通出水管"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "query": "机器人噪音突然变大，像刷子卡了东西怎么办？",
+    "gold_targets": [
+      {
+        "source": "故障排除.txt",
+        "keywords": ["主刷", "边刷", "缠绕杂物", "润滑轮组"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "query": "家里两只猫，毛发很多，买机器时最该看哪些参数？",
+    "gold_targets": [
+      {
+        "source": "选购指南.txt",
+        "keywords": ["带宠物", "强化吸力", "防缠绕功能"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T17",
+    "query": "阳台有洗衣机，地上容易有积水，拖地时怎么避免出问题？",
+    "gold_targets": [
+      {
+        "source": "扫拖一体机器人100问.txt",
+        "keywords": ["禁拖区", "积水", "水渍", "地面干燥"],
+        "min_keyword_hits": 2
+      }
+    ]
+  },
+  {
+    "id": "T18",
+    "query": "租房党、小户型平时适合开什么清扫模式？",
+    "gold_targets": [
+      {
+        "source": "扫地机器人100问2.txt",
+        "keywords": ["一键清扫", "迷你清扫", "定时清扫", "每天短时间清扫"],
+        "min_keyword_hits": 2
+      }
+    ]
+  }
+]

@@ -40,6 +40,7 @@ logs/
 # Runtime generated data
 # =========================
 chroma_db/
+eval/results/
 
 # Optional: if you later generate temp reports locally
 tmp/

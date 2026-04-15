@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+
+# 自动获取项目根目录（rag目录的父目录）并加入sys.path
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.append(str(PROJECT_ROOT))
+
+
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from utils.config_handler import chroma_conf
@@ -108,11 +116,11 @@ if __name__ == '__main__':
 
     vs.load_document()
 
-    retriever = vs.get_retriever()
+    # retriever = vs.get_retriever()
 
-    res = retriever.invoke("迷路")
-    for r in res:
-        print(r.page_content)
-        print("-"*20)
+    # res = retriever.invoke("迷路")
+    # for r in res:
+    #     print(r.page_content)
+    #     print("-"*20)
 
 

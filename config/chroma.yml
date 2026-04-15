@@ -1,11 +1,18 @@
 collection_name : agent
 persist_directory : chroma_db
-k :  3
+k : 3
 data_path : data
 md5_hex_store : md5.txt
-allow_knowledge_file_type : ["txt","pdf"]
+allow_knowledge_file_type : ["txt", "pdf"]
 
 chunk_size : 200
 chunk_overlap : 20
-separators : ["\n\n","。",".","?","？","!"," ",""]
+separators : ["\n\n", "\n", ".", "?", "!", " ", ""]
 
+hybrid_vector_k : 8
+hybrid_bm25_k : 8
+hybrid_final_k : 3
+hybrid_vector_weight : 0.45
+hybrid_bm25_weight : 0.35
+hybrid_keyword_weight : 0.20
+hybrid_rrf_k : 60
